@@ -113,6 +113,16 @@ public class Login extends HttpServlet {
         
         PrintWriter out = response.getWriter();
         
+        out.println("<html>");
+        out.println("<body>");
+        out.println("<h1>Servlet Login at "+ estado+ "</h1>");
+            out.println("<h1>Servlet Login at "+ estado + "</h1>");
+        
+        
+        
+        
+        out.println("</html>");
+        
         
         
     
